@@ -1,0 +1,148 @@
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgba(192, 219, 217, 1);
+}
+header {
+  max-width: 1170px;
+  height: 100px;
+  background: #7faff7;
+  margin: 0 auto;
+}
+.link {
+  display: flex;
+}
+.link a {
+  text-decoration: none;
+  margin: 30px 0 30px;
+  margin-left: 30px;
+  background: #a5c7f9;
+  border-radius: 5px;
+  padding: 8px 15px;
+  color: #ffffff;
+}
+main {
+  max-width: 1170px;
+  /* height: 100%; */
+  margin: 0 auto;
+
+  margin-top: 15px;
+}
+.main {
+  background-color: rgba(179, 249, 90, 1);
+}
+section {
+  height: 198px;
+}
+.block_1 {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  margin-bottom: 15px;
+}
+.block_1 section {
+  background-color: rgba(138, 209, 145, 1);
+}
+._1 {
+  display: flex;
+  flex: 2;
+}
+.num_1 {
+  margin: 0 auto;
+  margin-top: 60px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 62px;
+  color: #ffffff;
+}
+._2 {
+  display: flex;
+  flex: 4;
+}
+
+._3 {
+  display: flex;
+  flex: 1;
+}
+.block_2 {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 15px;
+}
+.block_2 section {
+  background-color: rgba(138, 209, 145, 1);
+}
+._4 {
+  display: flex;
+  flex: 6;
+}
+._5 {
+  display: flex;
+  flex: 1;
+}
+.block_3 {
+  display: flex;
+  column-gap: 15px;
+  justify-content: space-between;
+  background-color: rgba(136, 181, 191, 1);
+  margin-top: 15px;
+}
+.block_3 section {
+  width: 255px;
+  height: 199px;
+  margin: 30px;
+  background-color: rgba(13, 137, 176, 1);
+}
+footer {
+  max-width: 1170px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: rgba(127, 175, 246, 1);
+  margin-top: 100px;
+}
+
+.pop_up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  width: 370px;
+  height: 370px;
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  top: 20%;
+  left: 40%;
+  transition: opacity 500ms;
+  visibility: hidden;
+  background: #ffffff;
+}
+.pop_up:target {
+  visibility: visible;
+  opacity: 1;
+}
+.pop_up img {
+  width: 13px;
+  height: 23px;
+}
+.pop_up a {
+  width: 43px;
+  height: 39px;
+  background: #7faff6;
+  border-radius: 5px;
+  border: none;
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pop_up a:hover {
+  opacity: 0.5;
+  background: purple;
+  transition: 400ms;
+}
+.pop_up h1 {
+  margin-top: 115px;
+}
